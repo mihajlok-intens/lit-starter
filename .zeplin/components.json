@@ -1,0 +1,31 @@
+{
+  "plugins": [
+    {
+      "name": "@zeplin/cli-connect-storybook-plugin",
+      "config": {
+          "url": "http://localhost:8000",
+          "startScript": "storybook"
+      }
+    }
+  ],
+  "projects": [
+    "60d05bd8a79d1b1232ed74f8"
+  ],
+  "components": [
+    {
+      "path": "src\\my-button.ts",
+      "zeplinIds": [
+        "60d07690655eae13b50749fd"
+      ],
+      "storybook": {
+        "kind": "Example/My Button",
+        "stories": [
+            "Follow Jane"
+        ]
+    }
+    }
+  ],
+  "github": {
+    "repository": "mihajlok-intens/lit-starter"
+  }
+}

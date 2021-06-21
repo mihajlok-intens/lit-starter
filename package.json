@@ -14,10 +14,13 @@
     "test:watch": "web-test-runner test/**/*.test.ts --node-resolve --watch",
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "storybook": "web-dev-server --config .storybook/server.config.mjs"
+    "storybook": "web-dev-server --config .storybook/server.config.mjs",
+    "zeplin-connect": "zeplin connect",
+    "zeplin-connect-dev-mode": "zeplin connect --dev"
   },
   "dependencies": {
     "@material/mwc-button": "^0.21.0",
+    "@zeplin/cli-connect-storybook-plugin": "^0.5.4",
     "lit-element": "2.5.1",
     "lit-html": "1.4.1"
   },
@@ -28,6 +31,7 @@
     "@web/dev-server-esbuild": "0.2.12",
     "@web/dev-server-storybook": "^0.3.5",
     "@web/test-runner": "0.13.5",
+    "@zeplin/cli": "1.1.12",
     "tslib": "2.2.0",
     "typescript": "4.3.2"
   }
