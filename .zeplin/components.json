@@ -18,14 +18,14 @@
         "60d07690655eae13b50749fd"
       ],
       "storybook": {
-        "kind": "Example/My Button",
         "stories": [
             "Follow Jane"
         ]
-    }
+      }
     }
   ],
   "github": {
-    "repository": "mihajlok-intens/lit-starter"
+    "repository": "mihajlok-intens/lit-starter",
+    "branch": "zeplin-integration"
   }
 }
